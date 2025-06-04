@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+.container{
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+    max-width: 1000px;
+    height:auto;
+    display: flex;
+}
+
+.left_content{
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(12, 90, 85);
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    color: white;
+    
+}
+
+.Description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: white;
+    text-justify: justify;
+    margin-top: 40px;
+   
+}
+
+.stat{
+    display : flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: white;
+
+}
+
+.stat_item p{
+    font-size: 1rem;
+}
+
+
+.Right_content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media  screen and (max-width:765px){
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left_content{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+img{
+    border-radius: 0 0 10px 10px;
+}
+}

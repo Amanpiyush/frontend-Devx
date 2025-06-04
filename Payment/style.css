@@ -1,0 +1,228 @@
+/* *{
+    margin: 0;
+
+}
+
+.container{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 650px;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+}
+
+.text_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+h2{
+    font-size: 25px;
+    margin: 15px;
+}
+
+p{  
+    margin:0 40px 0 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.plan{
+    background-color: rgb(11, 129, 95);
+    border-radius: 10px;
+    margin:0 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    color: white;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
+
+}
+.Block{
+    border-radius: 5px ;
+    width:50px;
+    height: 50px;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(1, 34, 31);
+    border-radius: 10px;
+    width: 370px;
+    height: 70px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+    margin:20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+p {
+    margin: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.plan {
+    background-color: rgb(11, 129, 95);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.Block {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff; /* Optional: To see the block */
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(1, 34, 31);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 370px;
+    height: 60px;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* ✅ Responsive Design for Small Devices */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+        margin: 0 10px;
+    }
+
+    .plan {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .box {
+        border-radius: 10px;
+    }
+
+    button {
+        height: 55px;
+        font-size: 0.9rem;
+    }
+}

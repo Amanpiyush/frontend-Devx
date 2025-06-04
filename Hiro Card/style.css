@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background-color:#EAEBD0 ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    background-color: white; 
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.blue{
+    background-color: rgb(19, 19, 23);
+    margin-top: 30px;
+    width: 350px;
+    height:400px ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.Hiro h3{
+    margin-top: 20px;
+    text-align: center;
+    font-weight:800;
+    font-size:18px;
+}
+
+.Hiro p{
+    text-justify: justify;
+    padding: 10px;
+    text-align: center;
+}
