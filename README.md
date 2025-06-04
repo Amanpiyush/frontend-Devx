@@ -82,7 +82,7 @@ Welcome to the ultimate Front-End Development roadmap! This guide is designed to
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| Recipe Daaba / Hiro Card | Responsive website | HTML, CSS |
+| 1. Recipe Daaba <br> 2. Hiro Card <br> 3. payment card <br> 4. Business Card <br> 5. Code Blog <br> 6. CODE | Responsive website | HTML, CSS |
 | To-Do List App | CRUD operations | JavaScript |
 | Weather App | API integration | JavaScript, Fetch API |
 | Blog UI | Dynamic routing | React.js |
