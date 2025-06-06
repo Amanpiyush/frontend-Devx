@@ -28,7 +28,7 @@ Welcome to the ultimate Front-End Development roadmap! This guide is designed to
 - ✅ Flexbox & Grid
 - ✅ Media Queries & Responsive Design
 - ✅ Animations & Transitions
-- 🔨 **Mini Project**: Recipe Daaba | Hiro Card
+- 🔨 **Mini Project**: Recipe Daaba | Hiro Card and Many more down.
 ---
 
 ### 📍 Phase 2: JavaScript (Fundamentals to Intermediate)
@@ -82,7 +82,8 @@ Welcome to the ultimate Front-End Development roadmap! This guide is designed to
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| 1. Recipe Daaba <br> 2. Hiro Card <br> 3. payment card <br> 4. Business Card <br> 5. Code Blog <br> 6. CODE | Responsive website | HTML, CSS |
+| 1. Recipe Daaba <br> 2. Hiro Card <br> 3. payment card <br> 4. Business Card <br> 5. Code Blog <br> 6. CODE | Small Pratical Project | HTML, CSS |
+|Code-sync | Responsive Website |HTML/CSS |
 | To-Do List App | CRUD operations | JavaScript |
 | Weather App | API integration | JavaScript, Fetch API |
 | Blog UI | Dynamic routing | React.js |
@@ -96,7 +97,8 @@ Welcome to the ultimate Front-End Development roadmap! This guide is designed to
 |-------|----------|------|
 | HTML | [Code-help](https://www.youtube.com/watch?v=k7ELO356Npo) | Free |
 | CSS | [Code-help](https://www.youtube.com/watch?v=dSJM4Gyh8jE) | Free |
-| JS | [JavaScript.info](https://javascript.info/) | Docs |
+|Tailwind| [Code-help](https://www.youtube.com/watch?v=6a8CNTk9yo4) | Free |
+| JS | [Code-help]([https://javascript.info/](https://www.youtube.com/watch?v=rfObCuGLSek)) | Free |
 | React | [Scrimba React](https://scrimba.com/learn/learnreact) | Interactive |
 | Tailwind | [Tailwind Docs](https://tailwindcss.com/docs) | Docs |
 | Next.js | [Next.js Docs](https://nextjs.org/docs) | Docs |
