@@ -627,4 +627,9 @@ input:hover{
         display: flex;
         justify-content: center;
     }
+
+    .footer-left{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
