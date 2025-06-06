@@ -98,7 +98,7 @@ Welcome to the ultimate Front-End Development roadmap! This guide is designed to
 | HTML | [Code-help](https://www.youtube.com/watch?v=k7ELO356Npo) | Free |
 | CSS | [Code-help](https://www.youtube.com/watch?v=dSJM4Gyh8jE) | Free |
 |Tailwind| [Code-help](https://www.youtube.com/watch?v=6a8CNTk9yo4) | Free |
-| JS | [Code-help]([https://javascript.info/](https://www.youtube.com/watch?v=rfObCuGLSek)) | Free |
+| JS | [Code-help](https://www.youtube.com/watch?v=rfObCuGLSek)) | Free |
 | React | [Scrimba React](https://scrimba.com/learn/learnreact) | Interactive |
 | Tailwind | [Tailwind Docs](https://tailwindcss.com/docs) | Docs |
 | Next.js | [Next.js Docs](https://nextjs.org/docs) | Docs |
